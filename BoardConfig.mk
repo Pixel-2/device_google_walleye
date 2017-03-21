@@ -37,8 +37,11 @@ BOARD_LISA_TARGET_SCRIPTS := device/google/wahoo/lisa/
 # for all future devices.
 BOARD_KERNEL_CMDLINE += androidboot.dtbo_idx=3
 
+# Partitions (listed in the file) to be wiped under recovery.
+TARGET_RECOVERY_WIPE := device/google/walleye/recovery.wipe
+
 # Display
- TARGET_SCREEN_DENSITY := 420
+TARGET_SCREEN_DENSITY := 420
 
 TARGET_RECOVERY_UI_LIB := \
     librecovery_ui_walleye \
