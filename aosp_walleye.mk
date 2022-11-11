@@ -32,6 +32,8 @@ $(call inherit-product, vendor/google/walleye/walleye-vendor.mk)
 
 include device/google/wahoo/device-proton.mk
 
+WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
+
 PRODUCT_MANUFACTURER := Google
 PRODUCT_BRAND := google
 PRODUCT_NAME := aosp_walleye
