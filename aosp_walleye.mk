@@ -26,6 +26,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/handheld_vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_vendor.mk)
 
+VANILLA_BUILD := true
+
 # Inherit product speciifc makefiles
 $(call inherit-product, device/google/walleye/device.mk)
 $(call inherit-product, vendor/google/walleye/walleye-vendor.mk)
